@@ -1,0 +1,95 @@
+.admin{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://cdn.wallpapersafari.com/61/31/Mo8nwL.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .adminWrapper{
+        width: 80%;
+        display: flex;
+
+        .adminLeft{
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            margin: 0 20px;
+            justify-content: center;
+
+            .adminLogo{
+                font-size: 60px;
+                font-weight: 800;
+                color: white;
+                margin-bottom: 10px;
+            }
+
+            .adminDesc{
+                font-size: 28px;
+            }
+        }
+
+        .adminRight{
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            margin: 0 20px;
+            justify-content: center;
+
+
+                    .adminbottomBox{
+                        width: 500px;
+                        height: 450px;
+                        padding: 30px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        border-radius: 10px;
+                        background-color:transparent;
+                        backdrop-filter: blur(10px);
+                        box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+                        border: 2px solid rgba(225, 225, 225, .5);
+
+                        .headcent{
+                            display: block;
+                            margin-right: auto;
+                            margin-left: auto;
+                        }
+
+                        .adminInput{
+                            height: 50px;
+                            border-radius: 10px;
+                            padding-left: 20px;
+                            font-size: 18px;
+                            border: 1px solid gray;
+
+                            &:focus{
+                                outline: none;
+
+                            }
+                        }
+                        .adminButton{
+                            height: 45px;
+                            width: 100%;
+                            background-color: rgb(1, 134, 1);
+                            color: #fff;
+                            font-weight: 500;
+                            font-size: 23px;
+                            border-radius: 10px;
+                            border: none;
+                            margin-bottom: 5px;
+                            cursor: pointer;
+                        }
+
+                        .remember-forget{
+                            display: flex;
+                            justify-content: space-between;
+                            
+                        }
+                    }
+                
+            
+        }
+    }
+}

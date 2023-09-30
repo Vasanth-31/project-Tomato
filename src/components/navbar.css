@@ -1,0 +1,166 @@
+
+.navbar {
+  background-color: rgba(239, 239, 163, 0.703); 
+  color:black; 
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  z-index: 1000; 
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+  border: 2px solid rgba(225, 225, 225, .5);
+}
+
+.navProfile{
+  display: flex;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid white;
+  object-fit: cover;
+  cursor: pointer;
+  }
+  
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 20px;
+  margin: 0 auto;
+}
+
+.logo {
+  flex: 1;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+.searchBar {
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+
+input[type="search"] {
+  padding: 20px;
+  border: none;
+  border-radius: 30px;
+  margin-right: 10px;
+  width: 450px; 
+}
+
+.search-btn {
+  background-color: white;
+  color: black;
+  border-top: none;
+  border-bottom: none;
+  margin-left: -95px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.nav-links {
+  flex: 3;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0;
+  display: flex;
+  justify-content: space-around; 
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-links a:hover{
+  color: rgba(46, 203, 46, 0.877);
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  margin-right: 50px;
+  background: black;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+.btn:hover{
+  background-color: #fff;
+  color: black;
+}
+.container2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: silver;
+  padding: 10px 10px;
+  width: 100%;
+  margin: 0 auto;
+}
+/* .Place-links{
+  flex: 1;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  border-radius: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+} */
+
+.cityList{
+  width: 200px;
+  height: 50px;
+  margin-right: 50px;
+  background: rgb(101, 90, 90);
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.cityList:hover{
+  background-color: #fff;
+  color: black;
+}
+.Place-links li a {
+  text-decoration: none;
+  color: black;
+}
+.Place-links a:hover{
+  color: white;
+}
+.LocationBar {
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+
+.location-input[type="search"] {
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 90px;
+  width: 300px; 
+}
+
+.Location-search-btn{
+  background-color: rgb(100, 89, 89);
+  color: #FFf;
+  border-radius: 5px;
+  padding: 20px;
+  cursor: pointer;
+}
